@@ -14,8 +14,8 @@ public class HelloWorld {
 		double num2 = keyboard.nextDouble();
 		
 		//add!
-		double sum = num1 + num2;
-		System.out.println("The sum is " + sum);
+		Adder add = new Adder(num1, num2);
+		System.out.println("The sum is " + add.add());
 		
 	}
 }
