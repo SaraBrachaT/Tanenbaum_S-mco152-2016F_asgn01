@@ -1,9 +1,9 @@
 
 public class Adder {
 
-	double num1;
-	double num2;
-	double sum;
+	private double num1;
+	private double num2;
+	private double sum;
 	
 	public Adder(double numb1, double numb2){
 		this.num1 = numb1;
